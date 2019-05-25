@@ -164,7 +164,7 @@ module seven_seg_display(
 endmodule
 
 // simulation file of an asynchronous clock gen (D flip flop)
-odule my_clock_gen_sim();
+module my_clock_gen_sim();
 
     // simulation inputs
     reg clock;
