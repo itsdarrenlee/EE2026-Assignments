@@ -1,0 +1,24 @@
+// this code will calculate the area and perimeter of a circle from a user provided radius.
+// PI is defined to be 3.14159
+
+#include <stdio.h>
+
+#define PI 3.14f
+#define rad 0.59 // changed include to define
+
+int main() {
+
+    // variable declaration
+    float area, perm; // removed declaration for rad because it is a defined global constant
+
+    // prompt user for radius input
+    printf("radius of circle: %f\n", rad); // included an extra "
+
+    // calculate area and perimeter
+    area=PI*rad*rad;
+    perm=2*PI*rad; // set the p of perm to lowercase
+
+    // output of area and perimeter
+    printf("Area of circle: %f \nPerimeter of circle: %f\n", area, perm);
+    return 0;
+}
