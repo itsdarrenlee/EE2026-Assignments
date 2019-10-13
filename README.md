@@ -1,2 +1,2 @@
-# NUSBtech
-Schoolwork Submited in EE2026
+# EE2026 Assignments
+All Schoolwork done using Verilog/VHDL
